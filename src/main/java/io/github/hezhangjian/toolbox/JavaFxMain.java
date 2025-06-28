@@ -1,4 +1,4 @@
-package com.example;
+package io.github.hezhangjian.toolbox;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -12,7 +12,7 @@ public class JavaFxMain extends Application {
         Label label = new Label("Hello, JavaFX");
         Scene scene = new Scene(label, 1200, 800);
 
-        primaryStage.setTitle("JavaFX App");
+        primaryStage.setTitle("ChuQin");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
